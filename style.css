@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.container {
+  width: 90%;
+  max-width: 800px;
+  margin: 2rem auto 0;
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  flex-flow: row wrap;
+}
+
+.likes_list {
+  list-style: none;
+}
+
+#likes {
+  list-style-type: decimal;
+}
+
+.dislikes_list {
+  list-style-type: square;
+}
+
+#dislike {
+  list-style-type: disc;
+}
+
+.child_item {
+  font-style: normal;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+#child {
+  font-style: italic;
+  font-weight: 400;
+  margin-bottom: 12px;
+}
